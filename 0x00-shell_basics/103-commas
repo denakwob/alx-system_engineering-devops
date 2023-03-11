@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -dmpaX
+ls --group-directories-first -mpaX
