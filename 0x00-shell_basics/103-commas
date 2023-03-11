@@ -1,2 +1,2 @@
 #!/bin/bash
-ls --group-directories-first -ampu
+ls --group-directories-first -ampf --sort=extension 
