@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((BINARY%9))
+echo "ibase=2 $((2#BINARY))"
