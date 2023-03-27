@@ -1,2 +1,2 @@
 #!/bin/bash
-cut /etc/passwd | sort
+grep -oE '^([^:]+:){0,5}[^:]+:' /etc/passwd | tr ':' '\t' | sort
